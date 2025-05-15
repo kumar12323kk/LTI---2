@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lakshmi Technical Institute</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="lakshmi icon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/9fc6410222.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="lakshmi icon.png" type="image/png" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="left">
+      <a href="#">Lakshmi Technical Institute</a>
+    </div>
+    <div class="right">
+      <a href="tel:+918973120153"><i class="fa-solid fa-phone"></i> Call</a>
+      <a href="https://maps.app.goo.gl/916VzKpv5NwJgWVp8" target="_blank"><i class="fa-solid fa-location-dot"></i> Location</a>
+      <a href="https://wa.me/918973120153" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+      <button id="darkModeToggle" aria-label="Toggle dark mode" title="Toggle Dark Mode"><i class="fa-solid fa-moon"></i></button>
+    </div>
+  </nav>
+
+  <header class="hero-section">
+    <div class="text">
+      <h1>Learn Skills that Matter</h1>
+      <p>Since 1997, we’ve been training champions in Typewriting, Shorthand, Tally, and Computers — right from the heart of Madurai.</p>
+      <div class="buttons">
+        <a href="#courses">Courses</a>
+        <a href="tel:+918973120153">Call Now</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="info-section">
+    <h2>About Us</h2>
+    <p>
+      Lakshmi Technical Institute is Madurai’s trusted centre for Typewriting, Shorthand, Computer Education, and Tally. For 25+ years, we've helped students build careers with practical, job-ready skills. Our disciplined coaching, government exam prep, and expert faculty make us a top choice.
+    </p>
+    <ul>
+      <li><i class="fa-solid fa-circle-check"></i> 25+ years of experience</li>
+      <li><i class="fa-solid fa-circle-check"></i> Government exam preparation</li>
+      <li><i class="fa-solid fa-circle-check"></i> Hands-on training & one-on-one support</li>
+      <li><i class="fa-solid fa-circle-check"></i> Peaceful learning environment</li>
+      <li><i class="fa-solid fa-circle-check"></i> Tally with GST for job-ready accounting skills</li>
+    </ul>
+  </section>
+
+  <section id="courses" class="info-section">
+    <h2>Our Courses</h2>
+    <ul>
+      <li><strong>Typewriting (English & Tamil)</strong> – Junior & Senior Grades, Duration: 6 months</li>
+      <li><strong>Shorthand (English & Tamil)</strong> – Junior & Senior Grades, Duration: 6 months (or 1 year)</li>
+      <li><strong>COA</strong> – Computer on Office Automation (Govt. Certified)</li>
+      <li><strong>Computer Basics</strong> – MS Office & OpenOffice</li>
+      <li><strong>Tally with GST</strong> – Job-ready accounting software training</li>
+    </ul>
+  </section>
+
+  <section id="timing" class="info-section">
+    <h2>Class Timings</h2>
+    <p><strong>Morning:</strong> 6:00 AM – 12:00 PM</p>
+    <p><strong>Evening:</strong> 4:00 PM – 8:00 PM</p>
+    <p><em>No age limit or eligibility criteria – Everyone is welcome!</em></p>
+  </section>
+
+  <section id="enquiry" class="info-section">
+    <h2>Enquire Now</h2>
+    <form id="enquiryForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Your name" />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210" pattern="[+0-9\s]+" />
+
+      <label>Course Interested:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="course" value="Typewriting" /> Typewriting (English & Tamil)</label>
+        <label><input type="checkbox" name="course" value="Shorthand" /> Shorthand (English & Tamil)</label>
+        <label><input type="checkbox" name="course" value="COA" /> COA - Computer on Office Automation</label>
+        <label><input type="checkbox" name="course" value="Computer Basics" /> Computer Basics</label>
+        <label><input type="checkbox" name="course" value="Tally with GST" /> Tally with GST</label>
+      </div>
+
+      <label for="message">Message (Optional):</label>
+      <textarea id="message" name="message" placeholder="Any questions or info?"></textarea>
+
+      <button type="submit">Send via WhatsApp</button>
+    </form>
+  </section>
+
+  <footer class="contact-section">
+    <h2>Contact Us</h2>
+    <p><i class="fa-solid fa-phone"></i> <a href="tel:+918973120153">+91 89731 20153</a></p>
+    <p><i class="fa-solid fa-location-dot"></i> 19-B, Rajangam Street, Anna Main Street, Bethaniyapuram, Madurai – 625016</p>
+    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:lakshmitechinstitute97@gmail.com">lakshmitechinstitute97@gmail.com</a></p>
+    <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/918973120153" target="_blank">Message on WhatsApp</a></p>
+    <p><i class="fa-solid fa-map-location-dot"></i> <a href="https://maps.app.goo.gl/916VzKpv5NwJgWVp8" target="_blank">View on Map</a></p>
+    <p>&copy; 2025 Lakshmi Technical Institute. All rights reserved.</p>
+  </footer>
+
+  <button id="enrollBtn" title="Enroll Now"><i class="fa-solid fa-pen-to-square"></i> Enroll Now</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
