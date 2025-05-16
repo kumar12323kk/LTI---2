@@ -198,6 +198,27 @@ footer p {
 .gallery-section #gallery-grid{
   margin: 15px;
 }
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; /* spacing between images */
+  padding: 20px; /* spacing around the grid */
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-section {
+  padding: 60px 20px;
+  text-align: center;
+}
 #enquiry form {
   max-width: 600px;
   margin: 0 auto;
