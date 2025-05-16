@@ -101,6 +101,7 @@ nav .right button:hover {
   border-radius: 6px;
   text-decoration: none;
   transition: transform 0.3s;
+  
 }
 
 .hero-section .buttons a:hover {
@@ -189,15 +190,18 @@ footer p {
   transform: scale(1.05);
 }
 
+.gallery-section h2{
+  text-align: center;
+
+}
+
+.gallery-section #gallery-grid{
+  margin: 15px;
+}
 #enquiry form {
   max-width: 600px;
   margin: 0 auto;
   text-align: left;
-}
-
-.gallery-section h2{
-  text-align: center;
-  
 }
 
 form label {
